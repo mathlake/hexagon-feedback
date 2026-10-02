@@ -1,0 +1,42 @@
+name: Feature request
+description: Propose an improvement grounded in a user need.
+title: "[Feature]: "
+labels:
+  - enhancement
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: This request will be public. Please describe the need without including confidential or personal information.
+  - type: textarea
+    id: need
+    attributes:
+      label: Problem or need
+      description: Who is affected, and what are they trying to accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the outcome or workflow you would find useful.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe current workarounds or other approaches, if any.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional public context
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and Discussions for a similar request.
+          required: true
+        - label: I removed private, personal, and account-specific information.
+          required: true

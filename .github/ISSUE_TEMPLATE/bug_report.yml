@@ -1,0 +1,68 @@
+name: Bug report
+description: Tell us about reproducible behavior that appears incorrect.
+title: "[Bug]: "
+labels:
+  - bug
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. This report will be public. Do not include credentials, private papers or source files, personal information, or security vulnerabilities.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Browsing and search
+        - Paper or version pages
+        - Submission
+        - Accounts and sign-in
+        - Discussion and community features
+        - API or MCP
+        - Accessibility
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and any visible error message.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Select …
+        3. Observe …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      description: For example, Safari 20 on macOS. Do not include identifying device data.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional public context
+      description: Add sanitized screenshots or links if useful.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for a matching report.
+          required: true
+        - label: I removed private, personal, account-specific, and security-sensitive information.
+          required: true
