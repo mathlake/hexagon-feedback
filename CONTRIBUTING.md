@@ -1,6 +1,6 @@
 # Contributing feedback
 
-Thank you for helping improve MathLake.
+Thank you for helping improve Hexagon.
 
 1. Search open and closed issues before creating a report.
 2. Use the form that best matches your request and provide one issue per report.

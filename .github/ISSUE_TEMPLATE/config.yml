@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Ask a question or share an early idea
-    url: https://github.com/mathlake/mathlake-feedback/discussions
+    url: https://github.com/mathlake/hexagon-feedback/discussions
     about: Use Discussions when the topic is not yet an actionable bug or feature request.
   - name: Report a security vulnerability privately
-    url: https://github.com/mathlake/mathlake-feedback/security/advisories/new
+    url: https://github.com/mathlake/hexagon-feedback/security/advisories/new
     about: Never disclose security vulnerabilities in a public issue.
-  - name: Visit MathLake
-    url: https://mathlake.org
-    about: Browse the MathLake service.
+  - name: Visit Hexagon
+    url: https://hexagonmath.org
+    about: Browse the Hexagon service.

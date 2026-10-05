@@ -4,9 +4,9 @@ Please do not open a public issue for a suspected security vulnerability.
 
 Use GitHub's **Report a vulnerability** flow on this repository's Security page:
 
-https://github.com/mathlake/mathlake-feedback/security/advisories/new
+https://github.com/mathlake/hexagon-feedback/security/advisories/new
 
-If that channel is unavailable, email security@mathlake.org. Include the affected
+If that channel is unavailable, email admin@hexagonmath.org. Include the affected
 surface, impact, reproduction steps, and any suggested mitigation, but do not
 send credentials, access tokens, or unrelated personal data.
 
